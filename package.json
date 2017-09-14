@@ -1,0 +1,25 @@
+{
+  "name": "magic-forms-cli",
+  "version": "1.0.0",
+  "description": "Magic Form CLI is a way to generate generic forms with all the handlers you could ever want without having to do it yourself. You're welcome.",
+  "main": "bin/magic-forms-cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "magic-forms": "./bin/magic-forms-cli.js"
+  },
+  "author": "@Renddslow",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "fs": "0.0.1-security",
+    "mkdirp": "^0.5.1",
+    "path": "^0.12.7",
+    "readline": "^1.3.0",
+    "sorted-object": "^2.0.1",
+    "util": "^0.10.3"
+  },
+  "preferGlobal": true,
+  "repository": "renddslow/magic-forms-cli"
+}
